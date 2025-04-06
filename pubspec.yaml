@@ -1,0 +1,42 @@
+name: counter_flutter
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.1 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: any
+
+
+  cupertino_icons: ^1.0.6
+  google_nav_bar: ^5.0.6
+  flutter_dotenv: ^5.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^3.0.0
+
+
+
+
+flutter:
+
+  uses-material-design: true
+
+
+  assets:
+     - assets/
+
+
+
